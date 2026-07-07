@@ -11,14 +11,14 @@ public class main {
 
         // CICLO ENQUANTO NÃO FOR SELECIONADO "SAIR"
         while (opcao != 3){
-            System.out.println("@========================================@");
+            System.out.println("|========================================|");
             System.out.println("|        MULTIUSO DO CONHECIMENTO        |");
             System.out.println("| -------------------------------------- |");
             System.out.println("|     SELECIONE O MODO DE UTILIZAÇÃO     |");
             System.out.println("|    -> 1. CALCULAR                      |");
             System.out.println("|    -> 2. VER CONCEITOS                 |");
             System.out.println("|    -> 3. SAIR                          |");
-            System.out.println("#========================================#");
+            System.out.println("|========================================|");
             System.out.println("                                          ");
 
             opcao = uk.nextInt();
@@ -31,21 +31,14 @@ public class main {
                     while (operacao != 5) {
                         calculadorA c1 = new calculadorA(5, 9);
 
-                        System.out.println("                                          ");
-                        System.out.println("@========================================@");
+                        System.out.println("|========================================|");
                         System.out.println("|                                        |");
                         System.out.println("|        --- MODO CALCULADORA ---        |");
                         System.out.println("|                                        |");
-                        System.out.println("#========================================#");
+                        System.out.println("|========================================|");
                         c1.exibirnum();
-                        System.out.println("                                          ");
-                        System.out.println("@========================================@");
-                        System.out.println("|                                        |");
-                        System.out.println("|  Selecione qual operação deseja fazer  |");
-                        System.out.println("|  ------------------------------------  |");
-                        System.out.println("#========================================#");
-
-                        System.out.println("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Voltar ao menu principal\n");
+                        System.out.println("\nSelecione qual operação deseja fazer:");
+                        System.out.println("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Voltar ao menu principal");
 
                         operacao = uk.nextInt();
 

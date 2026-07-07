@@ -38,14 +38,8 @@ public class main {
                         System.out.println("|                                        |");
                         System.out.println("#========================================#");
                         c1.exibirnum();
-                        System.out.println("                                          ");
-                        System.out.println("@========================================@");
-                        System.out.println("|                                        |");
-                        System.out.println("|  Selecione qual operação deseja fazer  |");
-                        System.out.println("|  ------------------------------------  |");
-                        System.out.println("#========================================#");
-
-                        System.out.println("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Voltar ao menu principal\n");
+                        System.out.println("\nSelecione qual operação deseja fazer:");
+                        System.out.println("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão\n5. Voltar ao menu principal");
 
                         operacao = uk.nextInt();
 

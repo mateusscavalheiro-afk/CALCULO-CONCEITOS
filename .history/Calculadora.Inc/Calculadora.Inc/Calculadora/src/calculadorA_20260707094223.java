@@ -32,7 +32,7 @@ public class calculadorA{
     // MÉTODOS DE OPERAÇÕES
 
     public void exibirnum(){
-        System.out.println("\nSeus números são: " + num1 + " e " + num2 + ".");
+        System.out.println("Seus números são: " + num1 + " e " + num2 + ".");
     }
 
     public double soma(){

@@ -73,14 +73,13 @@ public class main {
                     int conceito = 0;
 
                     // OPÇÕES PARA O MODO CONCEITUAL
-                    while (conceito != 16) {
+                    while (conceito != 5) {
                         System.out.println("\n");
                         System.out.println("|=======================================|");
                         System.out.println("|        --- MODO CONCEITUAL ---        |");
                         System.out.println("|=======================================|");
                         System.out.println("\nSelecione qual conceito deseja visualizar:");
-                        con.exibirMenu();
-                        
+                        System.out.println("1. Lei de Ohm\n2. If/Else\n3. VPN\n4. Hidráulica e Pneumática\n5. Voltar ao menu principal\n");
 
                         conceito = uk.nextInt();
 

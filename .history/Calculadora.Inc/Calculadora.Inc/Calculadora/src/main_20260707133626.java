@@ -116,7 +116,7 @@ public class main {
                     System.out.println("Saindo do programa...");
                     break;
 
-                case (2011):
+                case (007):
                     System.out.println("\n[AVISO] INICIANDO PROTOCOLO SECRETO DA INDÚSTRIA 4.0...");
                     
                     for (int i = 0; i <= 100; i += 5) {

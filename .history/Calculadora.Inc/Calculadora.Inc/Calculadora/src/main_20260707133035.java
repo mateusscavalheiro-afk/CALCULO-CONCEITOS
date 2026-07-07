@@ -116,32 +116,9 @@ public class main {
                     System.out.println("Saindo do programa...");
                     break;
 
-                case (2011):
-                    System.out.println("\n[AVISO] INICIANDO PROTOCOLO SECRETO DA INDÚSTRIA 4.0...");
-                    
-                    for (int i = 0; i <= 100; i += 5) {
-                        
-                        System.out.print("\rCarregando Sistema: [");
-                    
-                        int blocos = i / 5;
-                        
-                        for (int j = 0; j < 20; j++) {
-                            if (j < blocos) {
-                                System.out.print("="); 
-                            } else if (j == blocos) {
-                                System.out.print(">"); 
-                            } else {
-                                System.out.print(" "); 
-                            }
-                        }
-                        
-                        System.out.print("] " + i + "%");
-                        
-                        try {
-                            Thread.sleep(150);
-                        } catch (InterruptedException e) { }
-                    }
-                    System.out.println("\n");
+                // --- EASTER EGG --- \\
+                case 99:
+                    System.out.println("\nINICIANDO PROTOCOLO SECRETO...\n\n");
                     System.out.println("                      .,,uod8B8bou,,.                            ");
                     System.out.println("             ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.                   ");
                     System.out.println("        ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||                  ");
@@ -172,11 +149,10 @@ public class main {
                     System.out.println("                 `!98                                              ");
                     System.out.println("\n VIVA A TECNOLOGIA E A AUTOMAÇÃO!");
                     System.out.println("\n\n");
-                    
-                    try {
-                        Thread.sleep(3000); 
-                    } catch (InterruptedException e) { }
                     break;
+
+                case (007):
+                    
                 
                 // MENSAGEM DE ERRO CASO OPÇÃO SEJA INVÁLIDA
                 default:

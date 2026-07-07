@@ -57,22 +57,13 @@ public class main {
                                 uk.nextLine();
                                 break;
                             case (2): 
-                                System.out.println(c1.subtração());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine(); 
+                                System.out.println(c1.subtração()); 
                                 break;
                             case (3): 
-                                System.out.println(c1.multiplicação());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine();
+                                System.out.println(c1.multiplicação()); 
                                 break;
                             case (4): 
-                                System.out.println(c1.divisão());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine();
+                                System.out.println(c1.divisão()); 
                                 break;
                             default: 
                                 System.out.println("Opção inválida!"); 

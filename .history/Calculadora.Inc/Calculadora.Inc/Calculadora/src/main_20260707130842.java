@@ -52,27 +52,15 @@ public class main {
                         switch (operacao) {
                             case (1):
                                 System.out.println(c1.soma()); 
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine();
                                 break;
                             case (2): 
-                                System.out.println(c1.subtração());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine(); 
+                                System.out.println(c1.subtração()); 
                                 break;
                             case (3): 
-                                System.out.println(c1.multiplicação());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine();
+                                System.out.println(c1.multiplicação()); 
                                 break;
                             case (4): 
-                                System.out.println(c1.divisão());
-                                uk.nextLine(); 
-                                System.out.println("\nPressione [ENTER] para voltar ao menu de operações...");
-                                uk.nextLine();
+                                System.out.println(c1.divisão()); 
                                 break;
                             default: 
                                 System.out.println("Opção inválida!"); 
@@ -94,7 +82,7 @@ public class main {
                         System.out.println("|=======================================|");
                         System.out.println("\nSelecione qual conceito deseja visualizar:");
                         con.exibirMenu();
-                        System.out.println("16. Voltar ao menu principal\n");
+                        System.out.println("16. Voltar ao menu principal");
 
                         conceito = uk.nextInt();
 
@@ -103,10 +91,6 @@ public class main {
                         }
 
                         con.mostrarConceito(conceito);
-
-                        uk.nextLine(); 
-                        System.out.println("\nPressione [ENTER] para voltar ao menu de conceitos...");
-                        uk.nextLine();
 
                     }
                     break;

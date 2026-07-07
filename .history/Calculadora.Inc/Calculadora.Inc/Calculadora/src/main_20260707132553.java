@@ -147,7 +147,6 @@ public class main {
                     System.out.println("            `' !!988888888888888888888888899fT|!^\"'               ");
                     System.out.println("                `!!8888888888888888899fT|!^\"'                     ");
                     System.out.println("                 `!98                                              ");
-                    System.out.println("\n VIVA A TECNOLOGIA E A AUTOMAÇÃO!");
                     System.out.println("\n\n");
                     break;
                 

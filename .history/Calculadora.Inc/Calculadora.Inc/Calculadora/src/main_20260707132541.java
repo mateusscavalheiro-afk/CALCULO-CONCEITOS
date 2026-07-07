@@ -118,7 +118,7 @@ public class main {
 
                 // --- EASTER EGG --- \\
                 case 99:
-                    System.out.println("\nINICIANDO PROTOCOLO SECRETO...\n\n");
+                    System.out.println("\nINICIANDO PROTOCOLO SECRETO...");
                     System.out.println("                      .,,uod8B8bou,,.                            ");
                     System.out.println("             ..,uod8BBBBBBBBBBBBBBBBRPFT?l!i:.                   ");
                     System.out.println("        ,=m8BBBBBBBBBBBBBBBRPFT?!||||||||||||||                  ");
@@ -147,8 +147,7 @@ public class main {
                     System.out.println("            `' !!988888888888888888888888899fT|!^\"'               ");
                     System.out.println("                `!!8888888888888888899fT|!^\"'                     ");
                     System.out.println("                 `!98                                              ");
-                    System.out.println("\n VIVA A TECNOLOGIA E A AUTOMAÇÃO!");
-                    System.out.println("\n\n");
+                    System.out.println("\n");
                     break;
                 
                 // MENSAGEM DE ERRO CASO OPÇÃO SEJA INVÁLIDA

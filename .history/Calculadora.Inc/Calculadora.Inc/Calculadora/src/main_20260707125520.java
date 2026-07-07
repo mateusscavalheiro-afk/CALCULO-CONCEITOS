@@ -19,7 +19,7 @@ public class main {
             System.out.println("|    -> 2. VER CONCEITOS                 |");
             System.out.println("|    -> 3. SAIR                          |");
             System.out.println("#========================================#");
-            System.out.println("\n");
+            System.out.println("                                          ");
 
             opcao = uk.nextInt();
             

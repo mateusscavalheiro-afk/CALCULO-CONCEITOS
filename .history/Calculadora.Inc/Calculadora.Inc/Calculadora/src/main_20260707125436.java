@@ -19,7 +19,7 @@ public class main {
             System.out.println("|    -> 2. VER CONCEITOS                 |");
             System.out.println("|    -> 3. SAIR                          |");
             System.out.println("#========================================#");
-            System.out.println("\n");
+            System.out.println("                                          ");
 
             opcao = uk.nextInt();
             
@@ -31,12 +31,12 @@ public class main {
                     while (operacao != 5) {
                         calculadorA c1 = new calculadorA(5, 9);
 
-                        System.out.println("\n");
+                        System.out.println("                                          ");
                         System.out.println("@========================================@");
                         System.out.println("|        --- MODO CALCULADORA ---        |");
                         System.out.println("#========================================#");
                         c1.exibirnum();
-                        System.out.println("\n");
+                        System.out.println("                                          ");
                         System.out.println("@=======================================@");
                         System.out.println("|                                       |");
                         System.out.println("| Selecione qual operação deseja fazer: |");
@@ -76,12 +76,12 @@ public class main {
 
                     // OPÇÕES PARA O MODO CONCEITUAL
                     while (conceito != 5) {
-                        System.out.println("\n");
+                        System.out.println("                                         ");
                         System.out.println("|=======================================|");
                         System.out.println("|        --- MODO CONCEITUAL ---        |");
                         System.out.println("|=======================================|");
                         System.out.println("\nSelecione qual conceito deseja visualizar:");
-                        System.out.println("1. Lei de Ohm\n2. If/Else\n3. VPN\n4. Hidráulica e Pneumática\n5. Voltar ao menu principal\n");
+                        System.out.println("1. Lei de Ohm\n2. If/Else\n3. VPN\n4. Hidráulica e Pneumática\n5. Voltar ao menu principal");
 
                         conceito = uk.nextInt();
 

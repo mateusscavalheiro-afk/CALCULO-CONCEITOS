@@ -33,7 +33,9 @@ public class main {
 
                         System.out.println("                                          ");
                         System.out.println("@========================================@");
+                        System.out.println("|                                        |");
                         System.out.println("|        --- MODO CALCULADORA ---        |");
+                        System.out.println("|                                        |");
                         System.out.println("#========================================#");
                         c1.exibirnum();
                         System.out.println("                                          ");

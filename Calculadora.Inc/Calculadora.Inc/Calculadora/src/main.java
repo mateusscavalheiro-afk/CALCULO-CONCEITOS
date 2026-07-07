@@ -11,13 +11,13 @@ public class main {
 
         // CICLO ENQUANTO NÃO FOR SELECIONADO "SAIR"
         while (opcao != 3){
-            System.out.println("========================================================================");
-            System.out.println("==XxX MULTIUSO DO CONHECIMENTO XxX==");
-            System.out.println("- SELECIONE O MODO DE UTILIZAÇÃO -");
-            System.out.println("-> 1. CALCULAR");
-            System.out.println("-> 2. VER CONCEITOS");
-            System.out.println("-> 3. SAIR");
-            System.out.println("========================================================================");
+            System.out.println("|========================================|");
+            System.out.println("|====//# MULTIUSO DO CONHECIMENTO #//====|");
+            System.out.println("|===  SELECIONE O MODO DE UTILIZAÇÃO  ===|");
+            System.out.println("|=== -> 1. CALCULAR                   ===|");
+            System.out.println("|=== -> 2. VER CONCEITOS              ===|");
+            System.out.println("|=== -> 3. SAIR                       ===|");
+            System.out.println("|========================================|");
 
             opcao = uk.nextInt();
             
